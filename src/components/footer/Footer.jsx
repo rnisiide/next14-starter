@@ -3,9 +3,13 @@ import styles from "./footer.module.css";
 const Footer = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.logo}>lamadev</div>
+            <div className={styles.logo}>Ricardo Nisiide ®</div>
             <div className={styles.text}>
-                Lama creative thoughts agency © All rights reserved.
+                Desenvolvido por: <a className={styles.link} href="https://github.com/rnisiide"> Ricardo Nisiide
+                </a>
+                |
+                <a className={styles.link} href="https://github.com/rnisiide/library">Código Github
+                </a>
             </div>
         </div>
     );

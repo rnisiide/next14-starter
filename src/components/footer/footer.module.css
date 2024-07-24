@@ -4,14 +4,27 @@
     align-items: center;
     justify-content: space-between;
     color: gray;
+    background-color: var(--bg);
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .logo {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .text {
-    font-size: 12px;
+    font-size: 15px;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.link:hover {
+    font-weight: bold;
+    color: var(--text);
 }
 
 @media (max-width:768px) {

@@ -5,7 +5,10 @@
     gap: 10px;
 }
 
-
+.avatar {
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 .texts {
     display: flex;
