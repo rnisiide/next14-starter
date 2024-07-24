@@ -39,7 +39,7 @@ const Links = () => {
 
     return (
         <div className={styles.container}>
-            <div class={styles.links}>
+            <div className={styles.links}>
                 {links.map((link =>
                     <NavLink item={link} key={link} />
 
